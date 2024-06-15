@@ -1,0 +1,45 @@
+header.common {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header.common > .header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+header.common > .header > .activity {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .header > .activity > .search {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .header > .activity > .search > form {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .header > .activity > .actions {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .header > .links {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  flex-direction: row-reverse;
+}
+header.common > .header > .links > .cases {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=position.css.map */

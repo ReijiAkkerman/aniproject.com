@@ -1,0 +1,10 @@
+$border-color: #000;
+
+@mixin border($type, $color: $border-color) {
+    @if $type == none {
+        border: 1px solid $color;
+    }
+    @else {
+        border#{-$type}: 1px solid $color;
+    }
+}

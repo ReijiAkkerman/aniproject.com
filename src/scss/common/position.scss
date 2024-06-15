@@ -1,0 +1,54 @@
+header.common {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    > .header {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+
+        > .activity {
+            display: flex;
+            position: relative;
+            justify-content: start;
+
+            > .search {
+                display: flex;
+                position: relative;
+                justify-content: start;
+
+                > form {
+                    display: flex;
+                    position: relative;
+                    justify-content: start;
+                }
+            }
+
+            > .actions {
+                display: flex;
+                position: relative;
+                justify-content: start;
+            }
+        }
+
+        > .links {
+            display: flex;
+            position: relative;
+            justify-content: start;
+            flex-direction: row-reverse;
+
+            > .cases {
+                display: flex;
+                position: relative;
+                justify-content: start;
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}
+
+footer.common {
+
+}

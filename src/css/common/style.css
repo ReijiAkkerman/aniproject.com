@@ -1,0 +1,110 @@
+header.common {
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+header.common > .header {
+  box-sizing: border-box;
+  max-width: 1800px;
+  height: 100%;
+  padding: 10px;
+  margin: auto;
+}
+header.common > .header > .activity > .hider {
+  border-right: 1px solid #000;
+}
+header.common > .header > .activity > .hider button {
+  height: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+header.common > .header > .activity > .hider button:hover {
+  border-color: #000;
+}
+header.common > .header > .activity > .search {
+  margin: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  min-width: 250px;
+  width: fit-content;
+}
+header.common > .header > .activity > .search svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: sub;
+  padding-left: 10px;
+  border-left: 1px solid #000;
+}
+header.common > .header > .activity > .search > form {
+  height: 100%;
+  margin: 0 10px 0 20px;
+}
+header.common > .header > .activity > .search > form > input {
+  width: 270px;
+  font-size: 25px;
+}
+header.common > .header > .activity > .actions {
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+header.common > .header > .activity > .actions > button {
+  box-sizing: border-box;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+header.common > .header > .activity > .actions > button:hover {
+  border-color: #000;
+}
+header.common > .header > .activity > .actions > button > svg {
+  width: 35px;
+  height: 35px;
+  padding: 0 10px;
+  vertical-align: sub;
+}
+header.common > .header > .activity > .info {
+  margin: 10px;
+}
+header.common > .header > .activity > .info > pre {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 35px;
+}
+header.common > .header > .links > .menu {
+  height: 100%;
+  padding-left: 10px;
+  border-left: 1px solid #000;
+}
+header.common > .header > .links > .menu > button {
+  height: 100%;
+}
+header.common > .header > .links > .menu > button:hover > svg {
+  fill: #aaa;
+}
+header.common > .header > .links > .menu > button > svg {
+  width: 55px;
+  height: 100%;
+  vertical-align: baseline;
+}
+header.common > .header > .links > .cases {
+  height: 100%;
+  padding: 0 10px;
+  border-left: 1px solid #000;
+}
+header.common > .header > .links > .cases > button {
+  height: 100%;
+  padding: 0 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+header.common > .header > .links > .cases > button:hover {
+  border-color: #000;
+}
+header.common > .header > .links > .cases > button > svg {
+  box-sizing: border-box;
+  width: 55px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

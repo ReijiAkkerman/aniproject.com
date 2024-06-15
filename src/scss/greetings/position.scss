@@ -1,0 +1,33 @@
+._greetings {
+    > main {
+        display: block;
+        position: relative;
+
+        > .main {
+            display: flex;
+            position: relative;
+            justify-content: center;
+
+            > .info {
+                display: block;
+                position: relative;
+            }
+
+            > .auth {
+                display: block;
+                position: relative;
+
+                > .auth_choice {
+                    display: flex;
+                    position: relative;
+                    justify-content: center;
+                }
+            }
+        }
+
+        > .extra {
+            display: block;
+            position: relative;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+._greetings > main {
+  display: block;
+  position: relative;
+}
+._greetings > main > .main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+._greetings > main > .main > .info {
+  display: block;
+  position: relative;
+}
+._greetings > main > .main > .auth {
+  display: block;
+  position: relative;
+}
+._greetings > main > .main > .auth > .auth_choice {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+._greetings > main > .extra {
+  display: block;
+  position: relative;
+}
+
+/*# sourceMappingURL=position.css.map */

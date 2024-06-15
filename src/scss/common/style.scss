@@ -1,0 +1,139 @@
+@use '../styles' as c;
+
+header.common {
+    height: 80px;
+    background-color: #fff;
+    @include c.border(bottom);
+
+    > .header {
+        box-sizing: border-box;
+        max-width: 1800px;
+        height: 100%;
+        padding: 10px;
+        margin: auto;
+
+        > .activity {
+            > .hider {
+                @include c.border(right);
+                
+                button {
+                    height: 100%;
+                    font-size: 30px;
+                    font-weight: bold;
+                    padding: 10px;
+                    margin-right: 10px;
+                    @include c.border(bottom, #0000);
+
+                    &:hover {
+                        border-color: c.$border-color;
+                    }
+                }
+            }
+
+            > .search {
+                margin: 10px 20px;
+                @include c.border(none);
+                border-radius: 20px;
+                min-width: 250px;
+                width: fit-content;
+
+                svg {
+                    width: 25px;
+                    height: 25px;
+                    vertical-align: sub;
+                    padding-left: 10px;
+                    @include c.border(left);
+                }
+
+                > form {
+                    height: 100%;
+                    margin: 0 10px 0 20px;
+
+                    > input {
+                        width: 270px;
+                        font-size: 25px;
+                    }
+                }
+            }
+
+            > .actions {
+                @include c.border(right);
+                padding-right: 10px;
+
+                > button {
+                    box-sizing: border-box;
+                    height: 100%;
+                    @include c.border(bottom, #0000);
+
+                    &:hover {
+                        border-color: c.$border-color;
+                    }
+
+                    > svg {
+                        width: 35px;
+                        height: 35px;
+                        padding: 0 10px;
+                        vertical-align: sub;
+                    }
+                }
+            }
+
+            > .info {
+                margin: 10px;
+
+                > pre {
+                    box-sizing: border-box;
+                    height: 100%;
+                    font-size: 35px;
+                    
+                }
+            }
+        }
+
+        > .links {
+            > .menu {
+                height: 100%;
+                padding-left: 10px;
+                @include c.border(left);
+
+                > button {
+                    height: 100%;
+
+                    &:hover {
+                        > svg {
+                            fill: #aaa;
+                        }
+                    }
+
+                    > svg {
+                        width: 55px;
+                        height: 100%;
+                        vertical-align: baseline;
+                    }
+                }
+            }
+
+            > .cases {
+                height: 100%;
+                padding: 0 10px;
+                @include c.border(left);
+
+                > button {
+                    height: 100%;
+                    padding: 0 5px;
+                    @include c.border(bottom, #0000);
+
+                    &:hover {
+                        border-color: c.$border-color;
+                    }
+
+                    > svg {
+                        box-sizing: border-box;
+                        width: 55px;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
