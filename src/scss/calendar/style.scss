@@ -1,0 +1,50 @@
+@use '../_styles.scss' as c;
+
+._calendar {
+    > main {
+        box-sizing: border-box;
+
+        > .calendar {
+            box-sizing: border-box;
+            width: inherit;
+
+            > .header {
+                box-sizing: border-box;
+                width: inherit;
+                background-color: c.$background-color;
+                @include c.border(left);
+
+                > div {
+                    box-sizing: border-box;
+                    @include c.border(bottom);
+                    @include c.border(right);
+
+                    > p {
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                }
+            }
+
+            > .body {
+                box-sizing: border-box;
+                width: inherit;
+                @include c.border(left);
+
+                > div {
+                    box-sizing: border-box;
+                    min-height: 200px;
+                    height: 15vw;
+                    @include c.border(bottom);
+                    @include c.border(right);
+                }
+            }
+        }
+
+        > #day {
+            // width: 800px;
+            // @include c.border(right);
+            // @include c.border(bottom);
+        }
+    }
+}

@@ -1,0 +1,36 @@
+._calendar > main {
+  box-sizing: border-box;
+}
+._calendar > main > .calendar {
+  box-sizing: border-box;
+  width: inherit;
+}
+._calendar > main > .calendar > .header {
+  box-sizing: border-box;
+  width: inherit;
+  background-color: #fff;
+  border-left: 1px solid #000;
+}
+._calendar > main > .calendar > .header > div {
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+._calendar > main > .calendar > .header > div > p {
+  text-align: center;
+  font-size: 25px;
+}
+._calendar > main > .calendar > .body {
+  box-sizing: border-box;
+  width: inherit;
+  border-left: 1px solid #000;
+}
+._calendar > main > .calendar > .body > div {
+  box-sizing: border-box;
+  min-height: 200px;
+  height: 15vw;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+/*# sourceMappingURL=style.css.map */

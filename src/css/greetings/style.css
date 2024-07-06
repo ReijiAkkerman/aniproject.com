@@ -1,10 +1,8 @@
 ._greetings > main > .main {
   margin: 150px 20px 20px 20px;
 }
-._greetings > main > .main > div {
-  padding: 10px 40px 20px 20px;
-}
 ._greetings > main > .main > .info {
+  padding: 10px 40px 20px 20px;
   border-right: 1px solid #000;
 }
 ._greetings > main > .main > .info > ul {
@@ -17,6 +15,7 @@
 }
 ._greetings > main > .main > .auth {
   margin: 30px;
+  padding: 10px 20px 20px 20px;
   border: 1px solid #000;
   border-radius: 20px;
 }
